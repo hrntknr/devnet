@@ -1,2 +1,2 @@
 #!/bin/sh
-screen -S mist /Applications/Mist\ 2.app/Contents/MacOS/Mist --rpc ./ethereum/geth.ipc
+screen -S mist /Applications/Mist.app/Contents/MacOS/Mist --rpc ./ethereum/geth.ipc
