@@ -1,7 +1,7 @@
 #!/bin/sh
 screen -S geth \
   geth \
-    --datadir ./ethereum \
+    --datadir ./data-geth \
     --verbosity 3 \
     --rpc \
     --rpcapi "eth,web3,personal,net" \
