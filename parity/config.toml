@@ -10,13 +10,10 @@ force = true
 disable = false
 
 [network]
-port = 30304
 
 [rpc]
-port = 18545
 
 [websockets]
-port = 18546
 
 [ipc]
 

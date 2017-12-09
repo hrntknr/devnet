@@ -5,10 +5,10 @@ screen -S geth \
     --datadir ./data \
     --verbosity 3 \
     --rpc \
-    --rpcapi "eth,web3,personal,net" \
+    --rpcapi "eth,net,web3,personal,admin" \
     --rpccorsdomain '*' \
     --ws \
-    --wsapi "eth,web3,personal" \
+    --wsapi "eth,net,web3,personal,admin" \
     --wsorigins "*" \
     --unlock "0xbfe06b543964758e1e79033798e684371b7f9996" \
     --password /dev/null \
