@@ -1,0 +1,39 @@
+[parity]
+chain = "./genesis.json"
+base_path = "./data"
+
+[account]
+password = ["password"]
+
+[ui]
+force = true
+disable = false
+
+[network]
+port = 30304
+
+[rpc]
+port = 18545
+
+[websockets]
+port = 18546
+
+[ipc]
+
+[dapps]
+
+[secretstore]
+
+[ipfs]
+
+[mining]
+engine_signer = "0xbfe06b543964758e1e79033798e684371b7f9996"
+force_sealing = true
+
+[footprint]
+
+[snapshots]
+
+[vm]
+
+[misc]

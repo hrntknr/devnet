@@ -1,7 +1,8 @@
 #!/bin/sh
+cd `dirname $0`
 screen -S geth \
   geth \
-    --datadir ./data-geth \
+    --datadir ./data \
     --verbosity 3 \
     --rpc \
     --rpcapi "eth,web3,personal,net" \

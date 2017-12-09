@@ -1,1 +1,5 @@
-/data-geth/
+geth/data/*
+!geth/data/keystore/
+parity/data/*
+!parity/data/keys/
+parity/data/keys/devnet/dapps_history.json
