@@ -1,3 +1,4 @@
 #!/bin/sh
 cd `dirname $0`
-parity --config ./config.toml
+screen -S geth \
+  parity --config ./config.toml
