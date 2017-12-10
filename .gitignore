@@ -3,3 +3,5 @@ geth/data/*
 parity/data/*
 !parity/data/keys/
 parity/data/keys/devnet/dapps_history.json
+ethermint/data/*
+!ethermint/data/keystore/
