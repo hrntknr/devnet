@@ -3,6 +3,7 @@ cd `dirname $0`
 screen -S geth \
   geth \
     --datadir ./data \
+    --networkid 30945 \
     --verbosity 3 \
     --rpc \
     --rpcapi "eth,net,web3,personal,admin" \
