@@ -4,6 +4,7 @@ base_path = "./data"
 
 [account]
 password = ["password"]
+unlock = ["0xbfe06b543964758e1e79033798e684371b7f9996"]
 
 [ui]
 force = true
@@ -25,7 +26,7 @@ disable = false
 
 [mining]
 engine_signer = "0xbfe06b543964758e1e79033798e684371b7f9996"
-force_sealing = true
+force_sealing = false
 
 [footprint]
 

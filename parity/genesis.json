@@ -8,7 +8,11 @@
           "list": [
             "0xbfe06b543964758e1e79033798e684371b7f9996"
           ]
-        }
+        },
+        "validateScoreTransition": 0,
+        "validateStepTransition": 0,
+        "maximumUncleCountTransition": 0,
+        "maximumUncleCount": 0
       }
     }
   },
@@ -16,7 +20,14 @@
     "gasLimitBoundDivisor": "0x400",
     "maximumExtraDataSize": "0x20",
     "minGasLimit": "0x1388",
-    "networkID" : "0x78E2"
+    "networkID" : "0x1",
+    "validateReceiptsTransition" : 0,
+    "eip155Transition": 0,
+    "validateChainIdTransition": 0,
+    "eip140Transition": 0,
+    "eip211Transition": 0,
+    "eip214Transition": 0,
+    "eip658Transition": 0
   },
   "genesis": {
     "seal": {
