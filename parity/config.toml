@@ -13,6 +13,9 @@ disable = false
 [network]
 
 [rpc]
+port = 22001
+apis = ["web3", "eth", "net", "parity", "parity_accounts", "personal", "traces", "rpc", "secretstore"]
+hosts = ["all"]
 
 [websockets]
 
