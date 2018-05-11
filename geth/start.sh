@@ -3,8 +3,9 @@ cd `dirname $0`
 screen -S geth \
   geth \
     --datadir ./data \
-    --networkid 30945 \
+    --networkid 1 \
     --verbosity 3 \
+    --targetgaslimit 4700000000000 \
     --rpc \
     --rpcapi "eth,net,web3,personal,admin" \
     --rpccorsdomain '*' \
