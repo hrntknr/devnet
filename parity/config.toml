@@ -15,6 +15,7 @@ disable = false
 [rpc]
 port = 8545
 apis = ["web3", "eth", "net", "parity", "parity_accounts", "personal", "traces", "rpc", "secretstore"]
+cors = ["all"]
 hosts = ["all"]
 
 [websockets]
