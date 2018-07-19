@@ -37,6 +37,4 @@ gas_floor_target = "4700000000000"
 
 [snapshots]
 
-[vm]
-
 [misc]
