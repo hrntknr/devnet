@@ -13,12 +13,18 @@ disable = false
 [network]
 
 [rpc]
+interface = "0.0.0.0"
 port = 8545
 apis = ["web3", "eth", "net", "parity", "parity_accounts", "personal", "traces", "rpc", "secretstore"]
 cors = ["all"]
 hosts = ["all"]
 
 [websockets]
+interface = "0.0.0.0"
+port = 8546
+apis = ["web3", "eth", "net", "parity", "parity_accounts", "personal", "traces", "rpc", "secretstore"]
+origins = ["all"]
+hosts = ["all"]
 
 [ipc]
 
@@ -30,7 +36,7 @@ hosts = ["all"]
 
 [mining]
 engine_signer = "0xbfe06b543964758e1e79033798e684371b7f9996"
-force_sealing = false
+force_sealing = true
 gas_floor_target = "4700000000000"
 
 [footprint]
